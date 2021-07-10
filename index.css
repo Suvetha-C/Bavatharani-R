@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+    font-family: Helvetica;
+}
+
+.tab {
+    float: left;
+    width: 200px;
+    padding: 0px;
+    height: 800px;
+    /* background-image: url("person.jpg");
+    background-repeat: no-repeat; */
+    background: linear-gradient(180deg, rgba(126, 131, 135, 1) 0%, rgba(70, 78, 86, 1) 20%, rgba(29, 39, 49, 1) 52%);
+}
+
+.column2 {
+    float: left;
+    width: 350px;
+    padding: 10px;
+    height: 800px;
+    background-color: ffffff;
+    border-style: hidden ridge hidden hidden;
+    border-color: #efefef!important;
+}
+
+.column3 {
+    float: left;
+    width: 799px;
+    padding: 10px;
+    height: 800px;
+    background-color: #ffffff;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.compose {
+    padding: 50px;
+    text-align: center;
+    color: #efefef;
+}
+
+.compose h4 {
+    font-size: 13px;
+}
+
+.compose p {
+    font-size: 11px;
+    color: #c3cad1;
+    padding: 5px;
+}
+
+.compose a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-bottom: 1px solid rgb(247, 114, 6);
+    border-top: 1px solid rgb(247, 114, 6);
+}
+
+.end {
+    margin-top: 52px;
+    align-items: center;
+    background-color: #121b24;
+    padding: 17px;
+    color: #657283;
+}
+
+.end img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.colimg {
+    float: left;
+    width: 130px;
+    padding: 1px;
+    height: 0px;
+    margin-top: -14px;
+}
+
+.colimg1 {
+    float: left;
+    padding: 1px;
+    height: 0px;
+    margin-top: -13px;
+    margin-left: 85px;
+}
+
+.colimg2 {
+    float: left;
+    width: 60px;
+    padding: 1px;
+    height: 0px;
+    margin-top: -14px;
+    margin-left: 80px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: #fbffff;
+    padding: 20px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    background-color: #fafafa;
+    color: #252c32;
+}
+
+
+/* Create an active/current "tab button" class */
+
+.tab button.active {
+    background-color: #fafafa;
+    color: #252c32;
+}
+
+
+/* Style the tab content */
+
+.tabcontent {
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border: none;
+    height: 50px;
+    color: #252c32;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+.active,
+.tabcontent:hover {
+    background-color: #f25333;
+    color: #fbffff;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.tabcontentdefault {
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border: none;
+    height: 50px;
+    color: #252c32;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 12px;
+}
+
+.tabcontentdefault:hover {
+    background-color: #f25333;
+    color: #fbffff;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.column2 p {
+    padding-top: 5px;
+}
+
+.scrollbar {
+    float: left;
+    width: 335px;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.time-right {
+    float: right;
+    color: #aaa;
+    margin-top: -30px;
+}
